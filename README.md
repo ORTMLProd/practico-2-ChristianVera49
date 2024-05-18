@@ -43,11 +43,13 @@
 6. taggear la imagen
 
 	docker tag scrapy <ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/ml-en-prod-image-repository:scrapy
+	docker tag scrapy 212476667992.dkr.ecr.us-east-1.amazonaws.com/ml-en-prod-image-repository:scrapy
 
 7. pushear imagen
 
 
 	docker push <ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/ml-en-prod-image-repository:scrapy
+	docker push 212476667992.dkr.ecr.us-east-1.amazonaws.com/ml-en-prod-image-repository:scrapy
 
 
 8. Entrar a la imagen con las claves
